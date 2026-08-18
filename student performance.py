@@ -1,7 +1,7 @@
 
 import pandas as pd
 from sklearn.linear_model import LinearRegression
-df=pd.read_csv("test.csv")
+df=pd.read_csv("student performance.csv")
 x=df[["Hours","Attendance","Previous Marks","Assignments"]]
 y=df["Final Marks"]
 model=LinearRegression()
